@@ -1,2 +1,3 @@
 # csc424
-A course of web applications
+A web development class files
+
