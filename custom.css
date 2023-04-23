@@ -1,0 +1,90 @@
+body {
+    font-family: "Corbel";
+    background-color: #f6f6f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/* Custom Classes */
+.btn {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 0;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50);
+    text-align: center;
+}
+
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+input[type="text"]
+{
+    background: #fff;
+    width: 440px;
+    height: 40px;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+
+}
+
+input[type="submit"]
+{
+    position: relative;
+    border-radius: 0 25px 25px 0;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border: none;
+    outline: none;
+    left: -5px;
+}
+
+/* Margins */
+.mb-25{
+    margin-bottom: 25px;
+}
